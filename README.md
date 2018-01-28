@@ -1,5 +1,5 @@
 # sololearn_pragram
-![alt text](https://www.sololearn.com/images/fb-story-icon.jpg)
+![alt text](https://d1qb2nb5cznatu.cloudfront.net/startups/i/490949-3370cc81f793e9caa256fe16ea5ad61c-medium_jpg.jpg)
 
 ## My Profile on SoloLearn:https://www.sololearn.com/Profile/928735
 ## opensource coders community
