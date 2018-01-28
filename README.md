@@ -1,7 +1,6 @@
 # sololearn_pragram
-## sololearn program
-## opensource free coders community
 
+## opensource coders community
 
 ### Arriving Comming soon.....
 
