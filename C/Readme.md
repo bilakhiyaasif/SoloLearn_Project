@@ -1,1 +1,3 @@
-## All C program from sololearn!!
+## MY SOLOLEARN CONTRIBUTION
+## PROGRAMMING LANGUAGE C
+## My All C program!!
