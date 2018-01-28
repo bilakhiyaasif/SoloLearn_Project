@@ -27,4 +27,5 @@
 ![alt text](https://www.sololearn.com/Certificate/1080-928735/jpg/)
 
 ### SQL Certificate:
-https://www.sololearn.com/Certificate/1060-928735/jpg/
+![alt text](https://www.sololearn.com/Certificate/1060-928735/jpg/)
+
