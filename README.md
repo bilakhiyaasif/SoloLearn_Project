@@ -21,9 +21,6 @@
 ### HTML/5 Certificate:
 ![alt text](https://www.sololearn.com/Certificate/1014-928735/jpg/)
 
-### CSS/3 Certificate:
-![alt text](https://www.sololearn.com/Certificate/1068-928735/jpg/)
-
 ### C# Certificate:
 ![alt text](https://www.sololearn.com/Certificate/1080-928735/jpg/)
 
