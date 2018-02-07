@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class p2
+public class Program
 {
 
 static int b_c=0,i_c=0,s_c=0,shell_c=0;
