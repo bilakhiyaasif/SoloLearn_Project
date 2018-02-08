@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Program
+public class p2
 {
-
+    
 static int b_c=0,i_c=0,s_c=0,shell_c=0;
 static long b_r=0,i_r=0,s_r=0,shell_r=0;
-
+ 
 static int[] fun_shell(int array[],int n)
 {
         int i, j, k, tmp,c=0;
@@ -109,13 +109,15 @@ static int[] fun_bubble(int array[],int n)
     }
     static void print_A(int Array[],int c)
     {
-      System.out.println("-----------");
-      System.out.println("Itr:"+c);    
-      
+    //  System.out.println("-----------");
+   // System.out.println("");
+     // System.out.println("Itr:"+c);    
+       System.out.print("|Itr:"+c+"|->");
       for(int i=0;i<Array.length;i++)
         {
             System.out.print(Array[i]+" ");
         }
+       
         System.out.println();
     }
     static int[] rev_A(int Array[],int c)
@@ -185,11 +187,11 @@ System.out.printf("\n|\t|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\
         double shell_r_t=(double)shell_r/1000000000.0;
 System.out.printf("\n");        System.out.print("-------------------------------------------------");
         System.out.println("\nAlgorithm Runtime summary:");
-        System.out.print("-------------------------------------------------");
-        System.out.println("||Insertion sort\t:"+i_c+"-Itr\t||"+"Time:"+i_r_t+" Second");
-        System.out.println("||Selection sort\t:"+s_c+"-Itr\t||"+"Time:"+s_r_t+" Second");
-        System.out.println("||Bubble sort\t:"+b_c+"-Itr\t\t\t||"+"Time:"+b_r_t+" Second");
-        System.out.println("||Shell sort\t:"+shell_c+"-Itr\t\t\t\t||"+"Time:"+shell_r_t+" Second");
+        System.out.println("-------------------------------------------------");
+        System.out.println("||Insertion\t:"+i_c+"-Itr\t||"+"Time:"+i_r_t+"-Sec\t|");
+        System.out.println("||Selection\t:"+s_c+"-Itr\t||"+"Time:"+s_r_t+"-Sec\t|");
+        System.out.println("||Bubble   \t:"+b_c+"-Itr\t||"+"Time:"+b_r_t+"-Sec\t|");
+        System.out.println("||Shell    \t:"+shell_c+"-Itr\t||"+"Time:"+shell_r_t+"-Sec\t|");
         System.out.println("-------------------------------------------------");
 developer_asif();       
         
