@@ -1,0 +1,46 @@
+body {
+
+    background-color:#ff1a1a;
+    color:#99ffff;
+    font-family:Monospace,Aldrich;
+}
+iframe
+{
+width:100%;
+height:300px;
+border-radius:8px;
+}
+#d1
+{
+    position:bottom;
+}
+span
+{
+    
+    opacity:0.9;
+}
+div
+{
+    width:100%;
+    background-color:#333300;
+    border:1px solid white;
+    border-radius:8px;
+    box-shadow:1px 1px 1px 1px white;;
+}
+.c3
+{
+
+width:100%;
+height:20px;
+background-color:#ff1a1a;
+position:bottom;
+color:lime;
+text-shadow:5px 5px 5px green;
+font-size:30px;
+font-family:Monospace;
+font-weight:bold;
+}
+#name
+{
+    font-family:Aldrich;
+}
