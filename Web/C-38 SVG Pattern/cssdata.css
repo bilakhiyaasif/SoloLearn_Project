@@ -1,0 +1,65 @@
+body {
+margin:10px 10px 10px 10px;
+background-color:purple;
+opacity:;
+}
+
+svg
+{
+  background-color:;
+  opacity:0.9;
+  box-shadow:01px 1px 1px 0px lightgreen;
+}
+circle
+{
+ 
+  fill:white; 
+  
+opacity:0.7;
+}
+#id1
+{
+
+  width:400px;
+  height:300px;
+  
+  box-shadow:2px white;
+  
+}
+
+footer
+{
+    position:bottom ;
+    
+}
+
+.class1
+{
+    float:left;
+    width:100px;
+    height:100px;
+    background-color:;
+    border-radius:5px;
+    border:0.5px solid white;
+    box-shadow:01px 1px 1px 0px lightgreen;
+    
+}
+
+#name
+{
+    font-family:Aldrich, Monospace;
+    color:white;
+    
+    background-color:purple;
+    font-weight:bold;
+    text-shadow:20px 20px 50px white;
+}
+.c3
+{
+clear:both ;
+}
+
+.xyz
+{opacity:0.5;
+    
+}
