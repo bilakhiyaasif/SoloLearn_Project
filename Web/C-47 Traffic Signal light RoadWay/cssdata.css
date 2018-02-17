@@ -1,0 +1,121 @@
+button
+{
+    float:right;
+    background-color:green;
+    color:white;
+    font-size:20px;
+}
+body {
+    background:#000066;
+    
+}
+.main-container
+{
+     background-color:black;
+     border-left:0.9px solid grey;
+     border-top:0.9px solid grey;
+     border-bottom:0px solid grey;
+     width:30px;
+     height:180px;
+     border-radius:1px;
+     
+     
+}
+.div-class
+{
+    background-color:black;
+    width:10px;
+    height:60px;
+    border-radius:10px;
+}
+.pip2
+{
+ 
+     background-color:black;
+    
+     width:10px;
+     height:150px;
+}
+.pip
+{
+ 
+     background-color:black;
+     border-left:0.9px solid grey;
+     border-right:0.9px solid grey;
+     border-bottom:17px solid green;
+     width:10px;
+     height:120px;
+     border-radius:0px;
+     
+}
+.seter-1
+{
+float:left;
+
+    width:7px;
+    height:150px;
+    background-color:black;
+   
+   color:#ffffff; 
+}
+.seter
+{
+float:left;
+
+    width:8px;
+    height:150px;
+    background-color:white;
+    
+}
+.set1
+{
+    width:400px;
+    height:150px;
+    background-color:black;
+    border-bottom:2px solid white;
+    border-top:2px solid white;
+    box-shadow:1px 1px 1px 1px #000066;
+}
+#div-1
+{
+  box-shadow:0px 1px 1px 0px grey;
+    border-radius:60px;
+     ;
+    width:60px;
+    height:60px;
+    background-color:black; 
+    color:white;
+   
+    
+    
+}
+
+#div-2
+{
+    border-radius:60px;
+
+    width:60px;
+    height:60px;
+    background-color:black;   
+    color:white;
+  box-shadow:0px 1px 1px 0px grey;
+}
+
+#div-3
+{
+    border-radius:60px;
+   box-shadow:0px 1px 1px 0px grey;
+   
+    width:60px;
+    height:60px;
+    background-color:black;   
+    color:white;
+}
+#l1
+{
+    color:white;
+    font-family:Monospace;
+    font-weight:bold;
+    font-size:20px;
+    
+}
