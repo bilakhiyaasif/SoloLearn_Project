@@ -1,395 +1,69 @@
 <!DOCTYPE HTML>
-<html>
-
+<html>   
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
-    <style>
-        #main-div {
-            background-color: black;
-            color: white;
-            text-shadow: 5px 5px 5px 5px green;
-            font-size: 20px;
-            font-family: Monospace;
-            font-weight: bold;
-            box-shadow: 2px 2px 8px 8px grey;
-            border: 1px inset black;
-            border-radius: 5px;
-        }
+<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'> 
+<style> 
+  
+</style>  
 
-        body {
-            background-color: black;
-            text-shadow: 5px 5px 5px orange;
-            text-align: center;
-            border-radius: 5px;
-            border-bottom: 1px solid white;
-            font-family: Monospace;
-            font-weight: bold;
-        }
-
-        button {
-            float: left;
-            color: black;
-            background-color: lightgreen;
-
-        }
-
-        #h11 {
-            display: none;
-        }
-
-        a {
-            text-decoration: none;
-            text-shadow: 5px 5px 5px green;
-            color: white;
-            border-radius: 5px;
-            font-family: Monospace;
-        }
-
-        img {
-            box-shadow: 2px 3px 5px 5px cyan;
-            border-radius: 5px;
-            border: 5px groove white;
-            margin: 5px;
-            width: 300px;
-            height: 200px;
-        }
-
-        #text1 {
-
-            box-shadow: 2px 3px 5px 5px cyan;
-            border-radius: 5px;
-            font-family: Monospace;
-            width: 300px;
-            height: 200px;
-            overflow: scroll;
-            word-wrap: break-word;
-            border: 5px groove grey;
-            background-color: white;
-            text-align: center;
-        }
-
-        .c1 {
-            border-radius: 2px;
-            background-color: orange;
-            color: white;
-            border: 1px solid white;
-            font-family: Monospace;
-        }
-
-        #c2 {
-            border-radius: 5px;
-            background-color: white;
-            color: blue;
-            font-family: Monospace;
-        }
-
-        .wiki {
-            border-radius: 5px;
-            background-color: white;
-            color: purple;
-            font-family: Monospace;
-        }
-
-        .c3 {
-            border-radius: 5px;
-
-            word-wrap: break-word;
-            width: 100%;
-            height: 20px;
-            background-color: green;
-
-            color: white;
-            text-shadow: 5px 5px 5px green;
-            font-size: 30px;
-            font-family: Monospace;
-            font-weight: bold;
-
-        }
-
-
-        #myProgress {
-            border-radius: 0px;
-            width: 100%;
-            background-color: black;
-            margin-top: 0px;
-            font-family: Monospace;
-            color: white;
-
-
-        }
-
-        #myBar {
-            border-radius: 0px;
-            width: 10%;
-            height: 30px;
-            background-color: orange;
-            text-align: center;
-            line-height: 30px;
-            color: white;
-            font-family: Monospace;
-        }
-
-
-
-
-        #myProgress1 {
-            border-radius: 0px;
-            width: 100%;
-            background-color: black;
-            margin-top: 0px;
-            color: white;
-            font-family: Monospace;
-        }
-
-        #myBar1 {
-            border-radius: 0px;
-            width: 10%;
-            height: 30px;
-            background-color: white;
-            text-align: center;
-            line-height: 30px;
-            color: blue;
-            font-family: Monospace;
-        }
-
-
-        #myProgress2 {
-            border-radius: 0px;
-            width: 100%;
-            background-color: black;
-            margin-top: 0px;
-            font-family: Monospace;
-            color: white;
-
-
-        }
-
-        #myBar2 {
-            border-radius: 0px;
-            width: 10%;
-            height: 30px;
-            background-color: green;
-            text-align: center;
-            line-height: 30px;
-            color: white;
-            font-family: Monospace;
-        }
-
-
-
-
-        #h11 {
-            display: none;
-        }
-
-
-
-
-
-        #div-1 {
-            font-family: Monospace;
-            border: 8px solid white;
-            margin-left: 30px;
-            margin-top: 30px;
-            border-radius: 0px 5px 5px 0px;
-        }
-
-        #div-2 {
-            font-family: Monospace;
-            margin-left: 30px;
-            border-left: 8px solid white;
-            height: 300px;
-        }
-
-        #div-3 {
-            border-radius: 5px;
-            font-family: Monospace;
-            border-bottom: 8px solid white;
-            width: 100%;
-        }
-
-        #flag {
-            border-radius: 5px;
-        }
-
-        #name1 {
-            font-family: Arial, Aldrich;
-            font-size: 22px;
-            text-shadow: 3px 3px 20px 4px grey;
-        }
-
-        #name {
-            font-family: Aldrich;
-        }
-    </style>
-    <script>
-        alert("Happy Republic Day!!");
-        alert("Thanks to be here.\nPlease Like,Comment,Share.");
-
-        function move() {
-            var x121 = document.getElementById('b1-id');
-            var body121 = document.getElementById('main-div');
-            // body.style.color='white';
-            body121.style.backgroundColor = 'black';
-            body121.style.color = 'white';
-
-
-
-            var elem = document.getElementById("myBar");
-            var elem1 = document.getElementById("myBar1");
-            var elem2 = document.getElementById("myBar2");
-            var flag = document.getElementById("flag");
-            var z = document.getElementById("h11");
-
-            var x = document.getElementById("myProgress");
-            var x1 = document.getElementById("myProgress1");
-            var x2 = document.getElementById("myProgress2");
-
-            var width = 10;
-            var id = setInterval(frame, 100);
-
-            function frame() {
-                if (width >= 100) {
-                    clearInterval(id);
-                    alert('Its our 69th Republic Day!!');
-                    x.style.display = 'none';
-                    x1.style.display = 'none';
-                    x2.style.display = 'none';
-                    flag.style.display = 'none';
-                    z.style.display = 'block';
-
-
-                } else {
-                    width++;
-                    elem.style.width = width + '%';
-                    elem1.style.width = width + '%';
-                    elem2.style.width = width + '%';
-
-                    if (width >= 1 && width <= 4) {
-                        document.body.style.backgroundColor = 'black';
-                    } else if (width >= 5 && width <= 32) {
-                        document.body.style.backgroundColor = 'orange';
-
-                    } else if (width >= 33 && width <= 36) {
-                        document.body.style.backgroundColor = 'black';
-
-                    } else if (width >= 37 && width <= 64) {
-                        document.body.style.backgroundColor = 'lightskyblue';
-
-                        //     document.body.style.backgroundColor='blue';
-
-
-
-                    } else if (width >= 65 && width <= 68) {
-                        document.body.style.backgroundColor = 'black';
-
-                    } else if (width >= 69 && width <= 96) {
-                        document.body.style.backgroundColor = 'green';
-
-                    } else if (width >= 97 && width <= 100) {
-                        document.body.style.backgroundColor = 'black';
-
-                    }
-
-
-                    elem.innerHTML = width * 1 + '%';
-                    elem1.innerHTML = width * 1 + '%';
-                    elem2.innerHTML = width * 1 + '%';
-
-                }
-            }
-        }
-
-        function b1click() {
-            //   alert('hello');
-            var x = document.getElementById('b1-id');
-            var body1 = document.getElementById('main-div');
-
-            var c2 = document.getElementById('c2');
-
-
-
-            if (body1.style.backgroundColor == 'black') {
-                body1.style.backgroundColor = 'white';
-                //   c2.style.backgroundColor ='white';
-                //    c2.style.Color ='black';
-                body1.style.color = 'black';
-                x.innerHTML = 'Night';
-            } else {
-                body1.style.backgroundColor = 'black';
-                body1.style.color = 'white';
-                //   c2.style.backgroundColor ='black';
-                //   c2.style.Color ='white';
-                x.innerHTML = 'Day';
-            }
-
-
-
-            //  alert(body1);
-        }
-    </script>
 </head>
-
 <body onload="move()">
 
-    <div id="flag">
+<div id="flag">
+
+ 
+<div id="div-1">
+<div id="myProgress">
+STRENGTH AND COURAGE!!
+
+ <div id="myBar">10%</div>
+</div>
 
 
-        <div id="div-1">
-            <div id="myProgress">
-                STRENGTH AND COURAGE!!
+<div id="myProgress1">
+PEACE AND TRUTH WITH DHARMA-CHAKRA!!
 
-                <div id="myBar">10%</div>
-            </div>
+<div id="myBar1">10%</div>
 
-
-            <div id="myProgress1">
-                PEACE AND TRUTH WITH DHARMA-CHAKRA!!
-
-                <div id="myBar1">10%</div>
-
-            </div>
+</div>
 
 
-            <div id="myProgress2">
+<div id="myProgress2">
+    
+    FERTILITY,GROWTH & AUSPICIOUSNESS!!
+<div id="myBar2">10%</div>
+</div>
 
-                FERTILITY,GROWTH & AUSPICIOUSNESS!!
-                <div id="myBar2">10%</div>
-            </div>
+</div>
+<div id="div-2">
+    
 
-        </div>
-        <div id="div-2">
+</div>
+<div id="div-3">
+</div>
 
+<div><br /></div>
+</div>
+<div id="h11">
 
-        </div>
-        <div id="div-3">
-        </div>
+<div id="main-div">
+<button id='b1-id' onclick='b1click()'>Day</button>
+<span class="c1"><span id='name1'>!!Happy Republic Day!!</span></span>
 
-        <div><br /></div>
-    </div>
-    <div id="h11">
+<!--https://www.123greetingmessage.net/wp-content/uploads/2018/01/Republic-Day-HD-Wallpapers.jpg-->
+<img id="img1" src="https://www.newhdwallpapers.in/wp-content/uploads/2014/01/Happy-Republic-Day-Flag-HD-Wallpaper.jpg" alt="salute.jpg">
+<center>
+<div id="text1">
 
-        <div id="main-div">
-            <button id='b1-id' onclick='b1click()'>Day</button>
-            <span class="c1"><span id='name1'>!!Happy Republic Day!!</span></span>
+<span id="c2">The Constitution of India came into force on 26 January 1950. Republic Day honours the date on which the Constitution of India came into effect on 26 January 1950 replacing the Government of India Act (1935) as the governing document of India
+<span><sub><a href="https://en.wikipedia.org/wiki/Republic_Day_(India)"><span class="wiki">WikiPedia<sup>&copy;</sup></span></a></sub></span>   </span>
 
-            <!--https://www.123greetingmessage.net/wp-content/uploads/2018/01/Republic-Day-HD-Wallpapers.jpg-->
-            <img id="img1" src="https://www.newhdwallpapers.in/wp-content/uploads/2014/01/Happy-Republic-Day-Flag-HD-Wallpaper.jpg" alt="salute.jpg">
-            <center>
-                <div id="text1">
-
-                    <span id="c2">The Constitution of India came into force on 26 January 1950. Republic Day honours the date on which the Constitution of India came into effect on 26 January 1950 replacing the Government of India Act (1935) as the governing document of India
-<span><sub><a href="https://en.wikipedia.org/wiki/Republic_Day_(India)"><span class="wiki">WikiPedia<sup>&copy;</sup></span></a>
-                    </sub>
-                    </span>
-                    </span>
-
-                    </p>
-                </div>
-            </center>
-            <br/>
-            <div class="c3">
-                <span id='name'>Asif Bilakhiya&copy;&trade;<span>
+</p>
+</div>
+</center>
+<br/>
+<div class="c3">
+<span id='name'>Asif Bilakhiya&copy;&trade;<span>
 </div>
 </div>
 </body>
