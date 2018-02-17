@@ -1,0 +1,102 @@
+button
+{
+    float:right;
+    background-color:green;
+    color:white;
+    font-size:20px;
+}
+body
+{
+
+
+color:white;
+background-color:#181e0a;
+
+
+font-weight:bold;
+font-size:1.5em;
+text-shadow:5px 5px 5px white;
+}
+#m1
+{
+    background-color:white;
+}
+table
+{
+
+border:2px solid lime;
+
+box-shadow:4px 4px 8px white;
+text-align:left;
+
+
+    font-weight:bold;
+    
+    font-size:20px;
+    text-shadow:1px 1px 2px white;
+
+}
+img
+{
+border:2px solid white;
+box-shadow:2px 2px 4px white;
+box-shadow:4px 4px 10px white;
+width=5%; 
+height=5%;
+
+border-radius:10px;
+
+}
+td
+{
+box-shadow:6px 6px 14px white;
+
+background-color:#181e0a;
+margin:20px;
+border:1px solid lime;
+border-radius:5px;
+background-color:#181e0a;
+}
+#solo1
+{
+width:120px;
+height:120px;
+border-radius:0px;
+padding:0px;
+margin:0px;
+
+}
+#d1
+{
+text-align:left;
+border-radius:5px;
+width:100%;
+box-shadow:4px 4px 5px white;
+background-color:#1157c6;
+
+}
+
+#tab1{
+
+width:150px;
+height:150px;
+
+}
+
+#tdi
+{
+    
+    box-shadow:2px 2px 3px black;
+    border:none;
+}
+#tdd
+{
+    font-weight:bold;
+      font-size:30px;
+    text-shadow:1px 1px 2px white;
+    
+}
+#tri
+{
+    border:5px solid lime;
+}
